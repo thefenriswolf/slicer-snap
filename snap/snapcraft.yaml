@@ -58,4 +58,4 @@
         - qtsvg5-dev
         - qttools5-dev
         - qtwebengine5-dev
-        - qtxmlpatterns5-dev
+        - qtxmlpatterns5-dev-tools
