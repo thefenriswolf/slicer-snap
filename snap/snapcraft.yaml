@@ -58,7 +58,7 @@
         - qt5base-dev
         - qtmultimedia5-dev
         - qtscript5-dev
-        - qtsvg5-dev
+        - libqt5svg5
         - qttools5-dev
         - qtwebengine5-dev
         - qtxmlpatterns5-dev-tools
