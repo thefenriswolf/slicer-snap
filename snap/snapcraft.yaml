@@ -24,7 +24,7 @@
       plugin: cmake
       source-type: git
       source: https://github.com/Slicer/Slicer.git
-      source-commit: '23bf4eb14c3367b77563b428b75577a1616b5559'
+      source-commit: 23bf4eb14c3367b77563b428b75577a1616b5559
       build-packages:
         - subversion
         - build-essential
