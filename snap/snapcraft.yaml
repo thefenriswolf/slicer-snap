@@ -1,0 +1,61 @@
+
+  name: slicer-thefenriswolf
+  version: '5.5.0+git'
+  summary: 3D Slicer image computing platform
+  description: |
+    3D Slicer is a free, open source software for visualization, processing, 
+    segmentation, registration, and analysis of medical, biomedical, and other 3D images 
+    and meshes; and planning and navigating image-guided procedures.
+
+  grade: devel # must be 'stable' to release into candidate/stable channels
+  confinement: devmode # use 'strict' once you have the right plugs and slots
+  base: core22
+  compression: lzo
+  
+  #apps:
+  #  slicer:
+  #    command: Slicer
+  
+  parts:
+    slicer:
+      plugin: cmake
+      source-type: git
+      source: git@github.com/Slicer/Slicer.git
+      source-commit: 23bf4eb14c3367b77563b428b75577a1616b5559
+      build-packages:
+        - subversion
+        - build-essential
+        - cmake-curses-gui
+        - cmake-qt-gui
+        - qtmultimedia5-dev 
+        - qttools5-dev
+        - qtbase5-dev
+        - libqt5xmlpatterns5-dev 
+        - libqt5svg5-dev 
+        - qtwebengine5-dev 
+        - qtscript5-dev
+        - qtbase5-private-dev 
+        - libqt5x11extras5-dev 
+        - libxt-dev 
+        - libssl-dev
+      stage-packages:
+        - dcmtk
+        - bzip2
+        - sqlite
+        - curl
+        - libarchive13
+        - libffi8
+        - libxt6
+        - openssl
+        - libpulse-dev 
+        - libnss3 
+        - libglu1-mesa
+        - rapidjson-dev
+        - teem-apps
+        - qt5base-dev
+        - qtmultimedia5-dev
+        - qtscript5-dev
+        - qtsvg5-dev
+        - qttools5-dev
+        - qtwebengine5-dev
+        - qtxmlpatterns5-dev
