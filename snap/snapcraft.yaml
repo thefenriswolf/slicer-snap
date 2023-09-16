@@ -34,23 +34,33 @@
         - qttools5-dev
         - qtbase5-dev
         - libqt5xmlpatterns5-dev 
-        - libqt5svg5-dev 
+        - libqt5svg5-dev
+        - libqt5svg5
         - qtwebengine5-dev 
         - qtscript5-dev
         - qtbase5-private-dev 
         - libqt5x11extras5-dev 
-        - libxt-dev 
+        - libxt-dev
+        - qtbase5-dev
+        - libqt5opengl5
+        - libqt5opengl5-dev
         - libssl-dev
+        - python3-pyqt5.qtx11extras
+        - libqt5xmlpatterns5-dev
+        - qtxmlpatterns5-dev-tools
       stage-packages:
         - dcmtk
         - bzip2
         - sqlite
+        - qtxmlpatterns5-dev-tools
         - curl
         - libarchive13
         - libffi8
         - libxt6
         - openssl
-        - libpulse-dev 
+        - qtbase5-dev
+        - libpulse-dev
+        - python3-pyqt5.qtx11extras
         - libnss3 
         - libglu1-mesa
         - rapidjson-dev
@@ -58,6 +68,8 @@
         - qtbase5-dev
         - qtmultimedia5-dev
         - qtscript5-dev
+        - libqt5opengl5
+        - libqt5svg5-dev
         - libqt5svg5
         - qttools5-dev
         - qtwebengine5-dev
