@@ -13,7 +13,7 @@
   compression: lzo
 
   architectures:
-    - build-on: amd64
+    - amd64
   
   #apps:
   #  slicer:
@@ -23,8 +23,8 @@
     slicer:
       plugin: cmake
       source-type: git
-      source: git@github.com/Slicer/Slicer.git
-      source-commit: 23bf4eb14c3367b77563b428b75577a1616b5559
+      source: https://github.com/Slicer/Slicer.git
+      source-commit: '23bf4eb14c3367b77563b428b75577a1616b5559'
       build-packages:
         - subversion
         - build-essential
