@@ -11,6 +11,9 @@
   confinement: devmode # use 'strict' once you have the right plugs and slots
   base: core22
   compression: lzo
+
+  architectures:
+    - build-on: amd64
   
   #apps:
   #  slicer:
